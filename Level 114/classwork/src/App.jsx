@@ -3,7 +3,7 @@ import App from "./App";
 
 
 import React from "react";
-import Comp1 from "./Comp1";
+import Comp1 from "./comp1";
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
 }
 
 import React from "react";
-import Comp2 from "./Comp2";
+import Comp2 from "./comp2";
 
 export default function Comp1() {
   return (
