@@ -29,7 +29,6 @@ export default function Spp() {
             <div className="wrapper">
               <div className="box">
                 <div className="jr">
-                  <img src="./images/icon-reaction.svg" alt="reaction" />
                   <p className="p p1">Reaction</p>
                 </div>
                 <p><span>80</span> / 100</p>
@@ -37,7 +36,6 @@ export default function Spp() {
 
               <div className="box">
                 <div className="jr">
-                  <img src="./images/icon-memory.svg" alt="memory" />
                   <p className="p p2">Memory</p>
                 </div>
                 <p><span>92</span> / 100</p>
@@ -52,7 +50,6 @@ export default function Spp() {
 
               <div className="box">
                 <div className="jr">
-                  <img src="./images/icon-visual.svg" alt="visual" />
                   <p className="p p4">Visual</p>
                 </div>
                 <p><span>72</span> / 100</p>
