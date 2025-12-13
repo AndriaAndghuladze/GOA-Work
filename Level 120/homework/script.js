@@ -39,3 +39,16 @@ function longest(s1, s2) {
   });
   return s4.join("");
 }
+
+
+//4
+//Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.
+function isTriangle(a,b,c)
+{
+   return a + b > c && a + c > b && c + b > a;
+}
+
+
+//5
+//Simple, given a string of words, return the length of the shortest word(s).
+const findShort = s => Math.min(...s.split(' ').map(x => x.length));
