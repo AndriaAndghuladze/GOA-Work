@@ -19,6 +19,10 @@ function App() {
       <h1>Count : {count}</h1>
       <h2>LastCount : {lastCount}</h2>
       <button onClick={inc}>+1</button>
+
+      <h1>Like Count : {count}</h1>
+      <h2>Last like Count : {lastCount}</h2>
+      <button onClick={inc}>+1</button>
     </div>
   )
 }
