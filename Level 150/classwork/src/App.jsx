@@ -17,3 +17,5 @@ export default function App() {
     </div>
   );
 }
+
+//React Router არის ბიბლიოთეკა React Router რომელიც გამოიყენება React აპლიკაციაში გვერდებს შორის გადასვლისთვის
