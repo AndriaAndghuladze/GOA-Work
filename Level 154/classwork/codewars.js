@@ -34,3 +34,25 @@ function getDivisorsCnt(n){
   }
   return count
 }
+
+//4
+//Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
+function dnaStrand(dna){
+   var result= "";
+		  for(var i =0; i<dna.length; i++) 
+		  {
+        if(dna[i] === 'A'){
+          result += "T"
+        }else if(dna[i]=== 'T'){
+          result += 'A'
+        }else if(dna[i] === 'C'){
+          result += "G"
+        }else if(dna[i] === 'G'){
+          result += 'C'
+        }else {
+          result += dna[i]
+        }
+      }
+  return result
+}
+
