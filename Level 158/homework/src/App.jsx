@@ -1,5 +1,6 @@
 import Bug from "./Bug";
 import ErrorBoundary from "./ErrorBund";
+import CountBund from './CountBoundary'
 
 export default function App() {
   return (
